@@ -1,0 +1,6 @@
+# personal
+checklist
+Found Account Takeover:
+1)Generated reset password link
+2)Gave password and intercepted the request
+3)Change my email with victim email and victim pass got changed.
