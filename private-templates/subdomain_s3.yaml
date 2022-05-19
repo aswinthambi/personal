@@ -1,0 +1,19 @@
+id: S3-BUCKET
+
+info:
+  name: s3 bucket disclosure
+  author: R0074G3N7
+  severity: info
+  description: S3 Bucket
+  tags: amazonaws
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}.s3.amazonaws.com"
+
+    matchers:
+      - type: status
+        status:
+          - 200
+          - 403
